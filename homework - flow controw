@@ -31,3 +31,21 @@ Write an if statement that examines two integer variables and exchanges their va
             echo 'Second number is greater or equal';
         }
         ?>
+        
+    /*Problem 2.	Show sign
+Write a script that shows the sign (+ or -) of the product of three real numbers without calculating it.
+Use a sequence of if statements.
+*/
+
+/*Problem 3.	Sort numbers
+Sort 3 real values in descending order using nested if statements.
+*/
+
+
+/*Problem 4.	Point in a Circle
+Write an expression that checks if given point (x,  y) is inside a circle K({0, 0}, 2). 
+*/
+
+
+
+
