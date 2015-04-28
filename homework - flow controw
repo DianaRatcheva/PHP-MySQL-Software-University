@@ -38,6 +38,11 @@ Write a script that shows the sign (+ or -) of the product of three real numbers
 Use a sequence of if statements.
 */
 
+<?php
+
+
+?>
+
 /*Problem 3.	Sort numbers
 Sort 3 real values in descending order using nested if statements.
 */
