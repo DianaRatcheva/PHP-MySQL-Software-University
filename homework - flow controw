@@ -38,10 +38,34 @@ Write a script that shows the sign (+ or -) of the product of three real numbers
 Use a sequence of if statements.
 */
 
-<?php
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+    <form>
+       <input type="text" name="number1"/>
+<input type="text" name="number2"/>
+<input type="text" name="number3"/>
+<input type="submit" method="get" action="pathToScript.php"/>
+    </form>
+<?php 
+$num1=$_GET['number1'];
+$num2=$_GET['number2'];
+$num3=$_GET['number3'];
 
-
-?>
+if (($num1*$num2*$num3)>0){
+	echo "The product is positive number ";}
+	elseif (($num1*$num2*$num3)<0){
+	echo "The product is negative number ";	}
+	elseif (($num1*$num2*$num3)==0) {
+	echo "The product is equal to zero";
+	}
+?>    
+     </body>
+     </html>
 
 /*Problem 3.	Sort numbers
 Sort 3 real values in descending order using nested if statements.
